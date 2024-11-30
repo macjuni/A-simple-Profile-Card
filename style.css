@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-box{
+    background-color: #0998f7;
+    text-align: center;
+    padding: 40px 92px;
+    position: relative;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.menu{
+    width: 25px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+.setting{
+    width: 25px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    transition: 0.3s ease;
+    opacity: 50;
+    transition: opacity 0.3s ease;
+}
+
+.profile{
+    width: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 6px;
+    margin-top: 40px;
+}
+
+.profile-button{
+    background-color: #fff;
+    color: #080101;
+    padding: 60px 0;
+    margin-right: -90px; 
+    margin-left: -90px;
+    margin-bottom: -40px;
+    border-radius: 20px;
+    margin-top: -10px;
+}
+
+.profile-button img{
+    width: 15px;
+    top: 15px;
+    cursor: pointer;
+    color: #080101;
+    background-color: #ffffff;
+}
+
+.profile-box button{
+    background: #27b9fd;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 10px  rgba(245, 0, 151, 0.5);
+    padding: 15px 60px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: -50px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: #ffe816;
+    color: black;
+}
+
+.profile:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+    transition: transform 0.3s ease-in;
+}
+
+.setting:hover{
+    transform: scale(1.8);
+    transition: transform 0.3s ease-in;
+}
+
+.menu:hover{
+    transform: scale(1.8);
+    cursor: pointer;
+    transition: transform 0.3s ease-in;
+}
+
+.telegram:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+    transition: transform 0.3s ease-in;
+}
+
+.dribble:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+    transition: transform 0.3s ease-in;
+}
+
+.instagram:hover{
+    transform: scale(1.5);
+    transition: transform 0.3s ease-in;
+}
+
+.arrow:hover{
+    transform: scale(1.9);
+    transition: transform 0.3s ease-in;
+}
